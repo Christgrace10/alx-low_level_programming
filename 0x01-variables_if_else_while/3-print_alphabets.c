@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - main block
- * Description: Get a random it with 5
+ * Description: print the alphabet in lower case
+ * and the in uppercase, follow by a new line
  * Return: 0
  */
 int main(void)
