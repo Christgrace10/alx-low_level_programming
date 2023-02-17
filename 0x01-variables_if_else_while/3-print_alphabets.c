@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - main block
  * Description: Get a random it with 5
@@ -12,6 +11,15 @@ int main(void)
 		putchar(C);
 		C++;
 	}
+
+	C = 'A';
+
+	while (C <= 'Z')
+	{
+		putchar('\n');
+		C++;
+	}
+
 	putchar('\n');
 	return (0);
 }
